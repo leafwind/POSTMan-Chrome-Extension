@@ -10,14 +10,16 @@
         "128":"icon_128.png"
     },
 
-    "app":{
-        "launch":{
-            "local_path":"index.html"
-        }
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
     },
 
     "default_locale":"en",
-    "permissions":["cookies", "storage", "http://*/*", "https://*/*"],
+    "permissions":["cookies", "storage", "tabs", "http://*/*", "https://*/*"],
     "content_scripts":[
         {
             "matches":["http://getpostman.com/*", "https://getpostman.com/*"],

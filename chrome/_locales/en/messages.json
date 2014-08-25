@@ -1,5 +1,5 @@
 {
-  "name": {"message": "Postman - REST Client"},
+  "name": {"message": "Postman - REST Client shortcut"},
   "description": {"message": "Test, develop and document APIs with pleasure!"},
   "request": {"message": "Request"},
   "debuglink": {"message": "Debug link"},
